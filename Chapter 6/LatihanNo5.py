@@ -1,0 +1,16 @@
+from statistik import*
+
+print("---Menghitung jumlah total, rata-rata, nilai maks, dan nilai min---")
+print("---                         DATA PERTAMA                        ---")
+print("---                 5, 10, 4, 9, 30, 16, 2, 11                  ---")
+print("Jumlah total dari data tersebut adalah ", sum(5, 10, 4, 9, 30, 16, 2, 11))
+print("Nilai rata - rata dari data tersebut adalah ", average(5, 10, 4, 9, 30, 16, 2, 11))
+print("Nilai maksimal dari data tersebut adalah ", max(5, 10, 4, 9, 30, 16, 2, 11))
+print("Nilai minimum dari data tersebut adalah ", min(5, 10, 4, 9, 30, 16, 2, 11))
+print("------------------------------------------------------------------")
+print("---                         DATA KEDUA                         ---")
+print("---             81, 98, 12, 83, 45, 77, 69, 30, 56             ---")
+print("Jumlah total dari data tersebut adalah ", sum(81, 98, 12, 83, 45, 77, 69, 30, 56))
+print("Nilai rata - rata dari data tersebut adalah ", average(81, 98, 12, 83, 45, 77, 69, 30, 56))
+print("Nilai maksimal dari data tersebut adalah ", max(1, 98, 12, 83, 45, 77, 69, 30, 56))
+print("Nilai minimum dari data tersebut adalah ", min(81, 98, 12, 83, 45, 77, 69, 30, 56))
